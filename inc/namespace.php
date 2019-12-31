@@ -15,5 +15,16 @@ namespace Spaces\Spaces_Media_Editor;
  * @since 0.1.0
  */
 function bootstrap() {
-	// add_action( 'init', __NAMESPACE__ . '\register', 10 );
+	add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\register_scripts', 100 );
+}
+
+/**
+ * Register scripts and enqueue them.
+ *
+ * TODO: needs a way to check if the script is already there, see wp_script_is()
+ *
+ * @since 0.2.0
+ */
+function register_scripts() {
+	wp_enqueue_script( 'vuejs' );
 }
