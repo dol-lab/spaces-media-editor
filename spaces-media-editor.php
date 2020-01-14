@@ -36,6 +36,13 @@
  */
 namespace Spaces\Spaces_Media_Editor;
 
+const PLUGIN_VERSION = '0.2.0';
+const PLUGIN_FILE    = __FILE__;
+
+define( 'PLUGIN_PATH', dirname( PLUGIN_FILE ) );
+define( 'PLUGIN_URL', plugins_url( '', PLUGIN_FILE ) );
+define( 'PLUGIN_ASSETS', PLUGIN_URL . '/assets' );
+
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 	include __DIR__ . '/vendor/autoload.php';
 }
