@@ -15,7 +15,7 @@ namespace Spaces\Spaces_Media_Editor;
  * @since 0.1.0
  */
 function bootstrap() {
-	add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\register_scripts', 100 );
+	add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\register', 100 );
 }
 
 /**
