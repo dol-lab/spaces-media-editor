@@ -14,7 +14,9 @@
   },
   "autoload": {
     "files": [
-      "inc/namespace.php"
+      "inc/namespace.php",
+      "inc/shortcode.php",
+      "inc/api.php"
     ]
   }
 }
