@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@wordpress/i18n": "^3.8.0",
-    "vue": "^2.6.10"
+    "filepond": "^4.9.5",
+    "vue": "^2.6.10",
+    "vue-filepond": "^6.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
