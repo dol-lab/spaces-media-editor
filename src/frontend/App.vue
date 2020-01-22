@@ -1,18 +1,21 @@
 <template>
-  <div id="spaces-media-editor">
-    <h2>Frontend App</h2>
-
-    <router-link to="/">Home</router-link>
-    <router-link to="/profile">Profile</router-link>
-
-    <router-view />
-  </div>
+	<div id="spaces-media-editor">
+    	<h2>{{ __( "New entry for the media library", "spaces-media-editor" ) }}</h2>
+	  	<Title />
+  	</div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+	import Title from './component/Title.vue'
+
+	export default {
+
+  		name: 'App',
+
+		components: {
+  			Title
+		}
+	}
 </script>
 
 <style>

@@ -1,0 +1,43 @@
+# Copyright (C) 2020 Silvan Hagen
+# This file is distributed under the same license as the Spaces Media Editor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spaces Media Editor 0.2.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/spaces-media-editor\n"
+"POT-Creation-Date: 2020-01-22 12:20:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: wp-vue-i18n 1.1.4\n"
+
+#: src/frontend/App.vue:3
+msgid "New entry for the media library"
+msgstr ""
+
+#: src/frontend/component/Title.vue:3
+msgid "Title"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Spaces Media Editor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/dol-lab/spaces-media-editor"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A frontend editor to create media items in the Spaces media space."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Silvan Hagen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://silvanhagen.com"
+msgstr ""
